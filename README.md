@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 
 ## Project Structure
+```bash
 
 next-task/
 ├── component/
@@ -23,6 +24,7 @@ next-task/
 │   └── users.js
 ├── next.config.js
 └── package.json
+```
 
 
 ## Getting Started
