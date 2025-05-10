@@ -4,7 +4,7 @@ import { getUsers } from "../../lib/users";
 
 export default async function Home({ searchParams }) {
   const query = searchParams?.q || "";
-  let users = await getUsers(query);
+  const users = await getUsers(query);
 
   return (
     <div className="text-white mt-10">
